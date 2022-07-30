@@ -17,35 +17,30 @@
   <body>
     <header class="titulo">BlackJack</header>
     <div>
-      <div class="col text-center pt-2">
-        <button class="btn btn-danger">Nuevo Juego</button>
-        <button class="btn btn-primary">Pedir Carta</button>
-        <button class="btn btn-primary">Detener</button>
+      <div class ="col text-center pt-2">
+        <button id="btn-nuevo" class="btn btn-danger">Nuevo Juego</button>
+        <button id="btn-pedir" class="btn btn-primary">Pedir Carta</button>
+        <button id="btn-detener" class="btn btn-primary"">Detener</button>
       </div>
 
       <div class="row container">
-        <div class="col">
-          <h1>Valentina 1 - <small>0</small></h1>
-          <div id="jugador-cartas">
-            <img class="carta" src="assets/cartas/7H.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7D.png" alt="" />
-            <img class="carta" src="assets/cartas/7S.png" alt="" />
+          <div class="col">
+              <h1>Jugador 1 - <small>0</small></h1>
+              <div id="jugador-cartas">
+
+              </div>
           </div>
-        </div>
       </div>
 
       <div class="row container mt-2">
         <div class="col">
-          <h1>Computadora - <small>0</small></h1>
-          <div id="computadora-cartas">
-            <img class="carta" src="assets/cartas/AC.png" alt="" />
-            <img class="carta" src="assets/cartas/AD.png" alt="" />
-            <img class="carta" src="assets/cartas/AH.png" alt="" />
-            <img class="carta" src="assets/cartas/AS.png" alt="" />
-          </div>
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas">
+
+            </div>
         </div>
-      </div>
+    </div>
+
     </div>
     <script src="assets/js/underscore.js"></script>
     <script src="assets/js/juego.js"></script>
