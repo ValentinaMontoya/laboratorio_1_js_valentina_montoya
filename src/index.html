@@ -19,24 +19,21 @@
     <div>
       <div class ="col text-center pt-2">
         <button id="btn-nuevo" class="btn btn-danger">Nuevo Juego</button>
-        <button id="btn-pedir" class="btn btn-primary">Pedir Carta</button>
-        <button id="btn-detener" class="btn btn-primary"">Detener</button>
+        <button id="btn-pedir" disable="disable "class="btn btn-primary">Pedir Carta</button>
+        <button id="btn-detener" disable="disable "class="btn btn-primary"">Detener</button>
       </div>
 
       <div class="row container">
           <div class="col">
               <h1>Jugador 1 - <small>0</small></h1>
-              <div id="jugador-cartas">
-
-              </div>
+              <div id="jugador-cartas" class="divCartas"></div>
           </div>
       </div>
 
       <div class="row container mt-2">
         <div class="col">
             <h1>Computadora - <small>0</small></h1>
-            <div id="computadora-cartas">
-
+            <div id="computadora-cartas" class="divCartas">
             </div>
         </div>
     </div>
@@ -44,5 +41,6 @@
     </div>
     <script src="assets/js/underscore.js"></script>
     <script src="assets/js/juego.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
