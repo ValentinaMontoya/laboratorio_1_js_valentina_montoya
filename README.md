@@ -21,3 +21,6 @@ lo fácil que puede ser JavaScript.
 
 ## Imagen de app.js
 ![Imagen](https://github.com/ValentinaMontoya/laboratorio_1_js_valentina_montoya/blob/master/Img%20app.PNG)
+
+## Imagen de el Juego Terminado
+![Imagen](https://github.com/ValentinaMontoya/laboratorio_1_js_valentina_montoya/blob/master/Img%20Juego%20terminado.PNG)
