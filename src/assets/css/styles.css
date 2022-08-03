@@ -1,7 +1,9 @@
 html,
 body {
   margin: 0px;
-  background-color: black;
+  background-image: url(https://media1.giphy.com/media/OZS4GXfAFQNkyuSg8o/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: antiquewhite;
 }
 
